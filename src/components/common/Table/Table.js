@@ -24,6 +24,9 @@ const useStyles = makeStyles(theme => ({
             cursor: 'pointer',
             color: 'rgb(117,147,202)'
         }
+    },
+    centeredTableHeader: {
+        textAlign: 'center'
     }
 }))
 
@@ -59,8 +62,8 @@ const PropertyTable = ({data, onEdit, onDelete, onAddRow}) => {
                         <th>Name</th>
                         <th>Area</th>
                         <th>Location</th>
-                        <th>Image</th>
-                        <th>Action</th>
+                        <th className={classes.centeredTableHeader}>Image</th>
+                        <th className={classes.centeredTableHeader}>Action</th>
                     </tr>
                     {mapDataToRows()}
                 </tbody>
