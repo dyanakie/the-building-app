@@ -10,8 +10,6 @@ const useStyles = makeStyles((theme) => ({
     marginTop: "50px",
     backgroundColor: "rgb(228,224,228)",
     overflowX: 'hidden',
-    // marginBottom: '0px',
-    // position: 'fixed',
     padding: '10px 10px 0px 10px',
     position: 'fixed',
     bottom: 0
@@ -27,7 +25,6 @@ const useStyles = makeStyles((theme) => ({
   },
   appName: {
     fontSize: 'large',
-    // float: 'right'
   }
 }));
 

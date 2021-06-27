@@ -7,6 +7,7 @@ const useStyles = makeStyles((theme) => ({
     width: "50%",
     marginLeft: "25%",
     textAlign: "center",
+    minHeight: '900px'
   },
   link: {
     textDecoration: "none",
