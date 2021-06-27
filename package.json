@@ -17,11 +17,17 @@
     "web-vitals": "^1.1.2",
     "yup": "^0.32.9"
   },
+  "devDependencies": {
+    "eslint-plugin-prettier": "^3.0.0",
+    "prettier": "^1.15.3"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "npm run lint -- --fix"
   },
   "eslintConfig": {
     "extends": [

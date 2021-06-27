@@ -1,1 +1,1 @@
-export const noImageFoundText = "No Image";
+export const noImageFoundText = 'No Image'
