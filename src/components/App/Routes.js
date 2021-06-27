@@ -1,5 +1,5 @@
 import React from 'react'
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {Switch, Route} from 'react-router-dom'
 import NotFound from './NotFound'
 import Homepage from '../page/Homepage/Homepage'
 import Details from '../page/Details/Details'

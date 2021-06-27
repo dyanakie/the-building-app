@@ -39,10 +39,3 @@ export const mockTableData = [
             'https://lh3.googleusercontent.com/proxy/9i0QuqZ7TD2K0HbKE2LpdKXF8EHfUDZIw1HtxaS9cILsNrnqqatgsVp9LsxcUjeMsRhH1pW-y4ADhPUYlfyZafANFhinH-4'
     }
 ]
-
-export const mockTestJson = `[{"tournamentId" : 26, 
-    "displayName": "Rise of Egypt", 
-    "testBigintNum": 9223372036854775807},
-    {"tournamentId" : 21, 
-    "displayName": "Rise of Ra", 
-    "testBigintNum": 9223372036854775807}]`

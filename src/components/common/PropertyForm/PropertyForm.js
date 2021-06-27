@@ -45,11 +45,10 @@ const useStyles = makeStyles(theme => ({
 
 const PropertyForm = ({formData, onSubmit, onCancel}) => {
     const classes = useStyles()
-    const ErrorField = ({errors, touched, fieldName}) => {
-        return errors[fieldName] && touched[fieldName] ? (
+    const ErrorField = ({errors, touched, fieldName}) =>
+        errors[fieldName] && touched[fieldName] ? (
             <p className={classes.errorField}>{errors[fieldName]}</p>
         ) : null
-    }
 
     return (
         <Formik

@@ -55,6 +55,7 @@ const Details = () => {
         setData(newData)
     }
 
+    // TO DO add check for same id
     const onSubmit = (formData, editMode = false) => {
         if (editMode) {
             const newData = data.filter(({id}) => id !== formData.id)
